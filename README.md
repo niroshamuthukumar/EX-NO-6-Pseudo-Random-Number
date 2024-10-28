@@ -15,7 +15,7 @@ Step 6: Print each generated random number.
 Step 7: End the program. 
 
 ## Program:
-
+```
 #include <stdio.h>  
 #define A 1664525  
 #define C 1013904223  
@@ -35,7 +35,7 @@ seed = lcg(seed);
 printf("%u\n", seed);  
 }  
 return 0; 
-
+```
 ## Output:
 ![25](https://github.com/user-attachments/assets/b91e65cc-0486-42d3-8997-d74818bb7da9)
 
